@@ -1,0 +1,12 @@
+#third-row{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  #testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    width:65%;
+    justify-content: space-around;
+  }
+
+  

@@ -1,0 +1,72 @@
+#first-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: center;
+  }
+  .iteam-main
+  {
+    display:flex;
+    flex-direction: column;
+    width :400px;
+    height:fit-content;
+    text-align: center;
+    width: 15.5rem;
+    padding-left: 40px;
+    padding-right:40px;
+    align-items: center;
+  }
+  .iteam-main button 
+   {
+    padding: 14px 40px;
+    font-size: .9em;
+    border-radius: 7px;
+    border: none;
+    width:15em;
+    background-color: #599cde;
+    background: radial-gradient(circle, #599cde, #4f779f);
+   }
+   .iteam-main h3 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 35px 0 35px;
+  }
+  
+  .iteam-main p { 
+    text-align: center;
+    margin: 0 5px 5px;
+  }
+  .iteam-main span {
+    font-weight: bold;
+  }
+  .round-icon {
+    background-color: #4c4c4c;
+    background: radial-gradient(circle, #666666, #4c4c4c);
+    width: 70px;
+    height: 70px;
+    display: table;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .round-icon i {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .iteam-main:hover {
+    background-color: white;
+    position: relative;
+    box-shadow: 15px 0px 40px -20px grey;
+    cursor: pointer;
+  }
+  .iteam-main:hover .round-icon {
+    background-color: #599cde;
+    background: radial-gradient(circle, #599cde, #4f779f);
+  }
+  .iteam-main:hover button {
+    display: none;
+  }
